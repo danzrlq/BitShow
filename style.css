@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kumbh+Sans:wght@100&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 8vh;
+  background-color: #4d535d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h2 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+header input {
+  height: 3vh;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-size: xx-large;
+}
+
+body {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/33aefe3b-92d8-4406-a158-bf87b741c1e6/RS-en-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 200px;
+}
+
+main div {
+  margin: 20px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+main div p {
+  color: #8989e4;
+  text-align: center;
+}
+
+header input {
+  width: 200px;
+}
+
+header input:focus {
+  outline: none;
+  border: 1px solid #a3a3fa;
+  -webkit-box-shadow: inset 0 1px 2px #eee;
+          box-shadow: inset 0 1px 2px #eee;
+}
+
+div.autocom-box {
+  width: 200px;
+  position: absolute;
+  background-color: whitesmoke;
+}
+
+li {
+  list-style: none;
+}
+
+div.autocom-box li:hover {
+  background-color: #efefef;
+}
+
+div.onclick {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

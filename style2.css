@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kumbh+Sans:wght@100&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  height: 8vh;
+  background-color: #4d535d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+footer {
+  height: 8vh;
+  background-color: #4d535d;
+  text-align: center;
+  color: white;
+}
+
+main h1 {
+  height: 5vh;
+  text-align: center;
+  margin: 10px;
+}
+
+main {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+main div.slika {
+  min-height: 20vh;
+}
+
+div.desni {
+  padding: 20px;
+}
+
+main div.slika img {
+  height: 70vh;
+}
+
+main p {
+  min-height: 200px;
+  padding: 10px;
+}
+
+div.seasons {
+  min-height: 300px;
+}
+
+div.seasons ul {
+  padding: 20px;
+}
+
+div.cast {
+  min-height: 300px;
+}
+
+div.cast ul {
+  padding: 20px;
+}
+
+div.otac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style2.css.map */
